@@ -93,7 +93,7 @@ curl http://localhost:8000
 |-----------------|------------------|---------------------------|-------------------------|
 | `id`            | `SERIAL`         | `PRIMARY KEY`             | Уникальный идентификатор|
 | `email`         | `TEXT`           | `UNIQUE NOT NULL`         | Email пользователя      |
-| `password_hash` | `TEXT`           | `NOT NULL`                | Хеш пароля (bcrypt)     |
+| `password_hash` | `TEXT`           | `NOT NULL`                | Пароль пользователя     |
 | `created_at`    | `TIMESTAMP`      | `DEFAULT CURRENT_TIMESTAMP`| Дата регистрации        |
 
 ## 📌 Таблица `links`
